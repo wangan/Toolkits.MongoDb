@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Toolkits.MongoDb</id>
+    <version>0.1.1</version>
+    <title>Toolkits.MongoDb</title>
+    <authors>wangan</authors>
+    <owners>wangan</owners>
+    <projectUrl>https://github.com/wangan/Toolkits.MongoDb</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mongodb support</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Toolkits</tags>
+
+    <dependencies>
+      <dependency id="Toolkits" version="0.1.0" />
+      <dependency id="Toolkits.Log" version="0.1.0" />
+    </dependencies>
+  </metadata>
+</package>
