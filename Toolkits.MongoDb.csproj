@@ -54,6 +54,12 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Toolkits, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Toolkits.0.1.0\lib\net452\Toolkits.dll</HintPath>
+    </Reference>
+    <Reference Include="Toolkits.Log, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Toolkits.Log.0.1.0\lib\net452\Toolkits.Log.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,16 +67,7 @@
     <Compile Include="MongoDbConfig.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Toolkits.Log\Toolkits.Log.csproj">
-      <Project>{4616d376-866d-4d55-9016-144a4ac8b727}</Project>
-      <Name>Toolkits.Log</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Toolkits\Toolkits.csproj">
-      <Project>{f4fa8c82-9d97-4967-a3c9-c7fecb429852}</Project>
-      <Name>Toolkits</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Toolkits.MongoDb.nuspec" />
   </ItemGroup>
